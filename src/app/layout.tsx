@@ -1,17 +1,26 @@
-import './globals.css';
-import { Inter } from 'next/font/google';
+import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const inter = Inter({ subsets: ['latin'] });
+import { Nunito } from "next/font/google";
+import { FC, ReactNode } from "react";
+
+import Layout from "@/components/Layout";
+
+const font = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "Enrico's Personal Website",
-    description: "Enrico Giovanno's Personal Website",
+  title: "Enrico's Personal Website",
+  description: "Enrico Giovanno's Personal Website",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-    return (
-        <html lang="en">
-            <body className={inter.className}>{children}</body>
-        </html>
-    );
-}
+const RootLayout: FC<{ children: ReactNode }> = ({ children }) => {
+  return (
+    <html lang="en">
+      <body className={font.className}>
+        <Layout>{children}</Layout>
+      </body>
+    </html>
+  );
+};
+
+export default RootLayout;
