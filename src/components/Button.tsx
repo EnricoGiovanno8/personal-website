@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import React, { FC } from 'react';
+import React, { FC } from "react";
 import {
     Button as ButtonReactBootstrap,
     ButtonProps as ButtonReactBootstrapProps,
-} from 'react-bootstrap';
+} from "react-bootstrap";
 
 interface ButtonProps extends ButtonReactBootstrapProps {
     label?: string;

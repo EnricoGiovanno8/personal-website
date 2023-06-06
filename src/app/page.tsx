@@ -1,6 +1,6 @@
-import { FC } from 'react';
+import { FC } from "react";
 
-import Home from './home/page';
+import Home from "./home/page";
 
 const Page: FC = () => {
     return <Home />;

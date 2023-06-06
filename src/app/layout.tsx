@@ -1,12 +1,12 @@
-import './globals.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Nunito } from 'next/font/google';
-import { FC, ReactNode } from 'react';
+import { Nunito } from "next/font/google";
+import { FC, ReactNode } from "react";
 
-import Layout from '@/components/Layout';
+import Layout from "@/components/Layout";
 
-const font = Nunito({ subsets: ['latin'] });
+const font = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
     title: "Enrico's Personal Website",

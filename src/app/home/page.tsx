@@ -1,24 +1,24 @@
-'use client';
+"use client";
 
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/image';
-import { useRouter } from 'next/navigation';
-import { FC } from 'react';
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { FC } from "react";
 
-import { Profile } from '@/assets';
-import Button from '@/components/Button';
+import { Profile } from "@/assets";
+import Button from "@/components/Button";
 
 const Home: FC = () => {
     const router = useRouter();
 
     const onClickMyWork = () => {
-        return router.push('/portfolio');
+        return router.push("/portfolio");
     };
 
     const onClickDownload = () => {
         return window.open(
-            'https://drive.google.com/u/0/uc?id=1vDwEJ4ck1gDEmVDwiwJyXGZ6d2CY4ylx&export=download',
+            "https://drive.google.com/u/0/uc?id=1vDwEJ4ck1gDEmVDwiwJyXGZ6d2CY4ylx&export=download",
         );
     };
 
