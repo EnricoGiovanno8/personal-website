@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const Contact: FC = () => {
-    return <div>Contact</div>;
+  return <div>Contact</div>;
 };
 
 export default Contact;

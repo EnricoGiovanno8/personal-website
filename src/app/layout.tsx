@@ -9,18 +9,18 @@ import Layout from "@/components/Layout";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "Enrico's Personal Website",
-    description: "Enrico Giovanno's Personal Website",
+  title: "Enrico's Personal Website",
+  description: "Enrico Giovanno's Personal Website",
 };
 
 const RootLayout: FC<{ children: ReactNode }> = ({ children }) => {
-    return (
-        <html lang="en">
-            <body className={font.className}>
-                <Layout>{children}</Layout>
-            </body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body className={font.className}>
+        <Layout>{children}</Layout>
+      </body>
+    </html>
+  );
 };
 
 export default RootLayout;

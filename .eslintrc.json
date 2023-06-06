@@ -85,13 +85,6 @@
     "no-console": [1, { "allow": ["warn", "error", "log"] }],
     "no-debugger": 2,
     "linebreak-style": ["error", "unix"],
-    "prettier/prettier": [
-      "error",
-      {},
-      {
-        "usePrettierrc": true
-      }
-    ],
     "react/prop-types": 0
   },
   "overrides": [

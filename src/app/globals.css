@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
-    background-color: #F2F0ED;
+  scroll-behavior: smooth;
+  background-color: #f2f0ed;
 }
 
 ::-webkit-scrollbar {
-    width: 0;
+  width: 0;
 }
