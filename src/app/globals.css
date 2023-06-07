@@ -10,3 +10,16 @@ html {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+#basic-nav-dropdown {
+  color: #b2a495;
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  border-color: #b2a495 !important;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: white !important;
+}
