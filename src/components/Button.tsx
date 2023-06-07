@@ -8,13 +8,13 @@ import {
 
 interface ButtonProps extends ButtonReactBootstrapProps {
   label?: string;
-  labelClassName?: string;
+  labelclassname?: string;
 }
 
 const Button: FC<ButtonProps> = (props) => {
   return (
     <ButtonReactBootstrap {...props}>
-      {props.label ? <p className={props.labelClassName}>{props.label}</p> : props.children}
+      {props.label ? <p className={props.labelclassname}>{props.label}</p> : props.children}
     </ButtonReactBootstrap>
   );
 };

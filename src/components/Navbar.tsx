@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { FC } from "react";
-import { Container, Nav, Navbar as NavbarBootstrap } from "react-bootstrap";
+import { Container, Nav, Navbar as NavbarBootstrap,NavDropdown } from "react-bootstrap";
 
 import { Icon } from "@/assets";
 
@@ -24,7 +24,7 @@ const Navbar: FC = () => {
         <NavbarBootstrap.Collapse
           id="basic-navbar-nav"
           className="justify-end bg-light-taupe lg:px-3 lg:mt-1 mr-[15vw]">
-          <Nav>
+          <Nav className="lg:w-[100vw]">
             <Nav.Link className="!text-taupe !font-semibold mr-10" onClick={() => router.push("/")}>
               Home
             </Nav.Link>
@@ -33,11 +33,30 @@ const Navbar: FC = () => {
               onClick={() => router.push("/portfolio")}>
               Portfolio
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               className="!text-taupe !font-semibold"
               onClick={() => router.push("/contact")}>
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
+            <NavDropdown title="Contact" id="basic-nav-dropdown">
+              <NavDropdown.Item
+                className="!text-taupe !font-semibold"
+                href="mailto:genrico189@gmail.com">
+                Email
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                className="!text-taupe !font-semibold"
+                href="https://www.linkedin.com/in/enrico-giovanno-a4803717a"
+                target="_blank">
+                LinkedIn
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                className="!text-taupe !font-semibold"
+                href="https://github.com/EnricoGiovanno8"
+                target="_blank">
+                Github
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </NavbarBootstrap.Collapse>
       </Container>
