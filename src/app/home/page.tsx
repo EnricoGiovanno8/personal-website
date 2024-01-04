@@ -28,7 +28,7 @@ const Home: FC = () => {
         <p className="text-md sm:text-sm font-bold text-taupe mb-0">HELLO, MY NAME IS</p>
         <p className="text-4xl sm:text-2xl font-extrabold text-dark-taupe mb-3">ENRICO GIOVANNO</p>
         <p className="text-md sm:text-sm font-bold text-taupe !mb-5 text-justify">
-          A dedicated Software Engineer driven by passion, close to 2 years of experience. Striving
+          A dedicated Software Engineer driven by passion, with 2+ years of experience. Striving
           to create efficient and user-friendly software that makes a meaningful impact.
         </p>
         <div className="flex w-full gap-3">
