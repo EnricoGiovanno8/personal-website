@@ -18,7 +18,7 @@ const Home: FC = () => {
 
   const onClickDownload = () => {
     return window.open(
-      "https://drive.google.com/u/0/uc?id=1M_90hwQ3QecRaa5c9cUgf4F9lz8bQvgI&export=download",
+      "https://drive.google.com/file/d/1M_90hwQ3QecRaa5c9cUgf4F9lz8bQvgI/view?usp=sharing",
     );
   };
 
