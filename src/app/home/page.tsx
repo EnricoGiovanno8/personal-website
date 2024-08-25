@@ -18,12 +18,12 @@ const Home: FC = () => {
 
   const onClickDownload = () => {
     return window.open(
-      "https://drive.google.com/u/0/uc?id=1M_90hwQ3QecRaa5c9cUgf4F9lz8bQvgI&export=download",
+      "https://drive.google.com/file/d/1M_90hwQ3QecRaa5c9cUgf4F9lz8bQvgI/view?usp=drive_link",
     );
   };
 
   return (
-    <div className="bg-light-taupe h-[100vh] w-[100vw] mt-[-80px] md:mt-0 flex md:flex-col-reverse justify-between md:justify-end items-center px-[15vw] lg:px-3 md:pb-5 md:h-[120vh] sm:h-[80vh]">
+    <div className="bg-light-taupe h-[100vh] w-[100vw] mt-[-80px] md:mt-0 flex md:flex-col-reverse justify-between md:justify-end items-center px-[15vw] lg:px-3 md:pb-5 md:h-[120vh] sm:h-[80vh] gap-10">
       <div className="w-1/2 md:w-full">
         <p className="text-md sm:text-sm font-bold text-taupe mb-0">HELLO, MY NAME IS</p>
         <p className="text-4xl sm:text-2xl font-extrabold text-dark-taupe mb-4">ENRICO GIOVANNO</p>
@@ -50,8 +50,8 @@ const Home: FC = () => {
           </Button>
         </div>
       </div>
-      <div className="mr-[-5vw] w-1/2 sm:w-3/4 md:mt-[-5vh] md:mb-[5vh]">
-        <Image src={Profile} alt="Website Owner's Icon" />
+      <div className="w-[480px] sm:w-3/4 md:mt-[-5vh] md:mb-[5vh]">
+        <Image src={Profile} alt="Website Owner's Icon"  />
       </div>
     </div>
   );
