@@ -16,7 +16,7 @@ const Kanye: FC<PortfolioCardProps> = ({ onClick }) => {
       />
       <div className="flex flex-col items-center py-[24px] sm:py-2 px-[48px] sm:px-3">
         <Card.Title className="!text-dark-taupe !font-bold mb-2 sm:!text-base">
-          Kanye's Quote Generator
+          Kanye&apos;s Quote Generator
         </Card.Title>
         <div
           className="bg-dark-taupe py-1 px-4 items-center mb-4 rounded-full hover:cursor-pointer"

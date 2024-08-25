@@ -22,7 +22,7 @@ const Calendar: FC<PortfolioCardProps> = ({ onClick }) => {
         </div>
         <Card.Text className="self-start text-taupe text-justify mb-4 sm:!text-sm">
           This website generates a calendar displaying the current month, allowing users to input a
-          maximum of three daily activities. Each activity entry can include the activity's name,
+          maximum of three daily activities. Each activity entry can include the activity&apos;s name,
           timing, and the people invited. All saved activities remain accessible even if the user
           refreshes the page.
         </Card.Text>

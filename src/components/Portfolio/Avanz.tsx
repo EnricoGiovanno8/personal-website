@@ -25,7 +25,7 @@ const Avanz: FC<PortfolioCardProps> = ({ onClick }) => {
         </div>
         <Card.Text className="self-start text-taupe text-justify mb-4 sm:!text-sm">
           This website serves as a comprehensive resource to acquaint visitors with Avanz. It
-          encompasses a detailed depiction of Avanz's profile, elucidating their core services, and
+          encompasses a detailed depiction of Avanz&apos;s profile, elucidating their core services, and
           facilitating seamless communication through provided contact information.
         </Card.Text>
         <p className="self-start text-dark-taupe font-bold mb-0 sm:!text-sm">
