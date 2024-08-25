@@ -26,10 +26,14 @@ const Home: FC = () => {
     <div className="bg-light-taupe h-[100vh] w-[100vw] mt-[-80px] md:mt-0 flex md:flex-col-reverse justify-between md:justify-end items-center px-[15vw] lg:px-3 md:pb-5 md:h-[120vh] sm:h-[80vh]">
       <div className="w-1/2 md:w-full">
         <p className="text-md sm:text-sm font-bold text-taupe mb-0">HELLO, MY NAME IS</p>
-        <p className="text-4xl sm:text-2xl font-extrabold text-dark-taupe mb-3">ENRICO GIOVANNO</p>
-        <p className="text-md sm:text-sm font-bold text-taupe !mb-5 text-justify">
-          A dedicated Software Engineer driven by passion, close to 2 years of experience. Striving
-          to create efficient and user-friendly software that makes a meaningful impact.
+        <p className="text-4xl sm:text-2xl font-extrabold text-dark-taupe mb-4">ENRICO GIOVANNO</p>
+        <p className="text-lg sm:text-md font-bold text-taupe mb-4 text-justify">
+          As a dedicated and experienced Software Engineer, I am passionate about creating
+          efficient, user-focused software solutions that drive meaningful impact. Committed to
+          continuous learning and professional growth, I relentlessly strive to enhance my skills,
+          ensuring that the value I deliver through my work consistently exceeds expectations. My
+          goal is to innovate and excel in every project, contributing to the success of both my
+          team and the end users.
         </p>
         <div className="flex w-full gap-3">
           <Button
