@@ -33,15 +33,10 @@ const Navbar: FC = () => {
               onClick={() => router.push("/portfolio")}>
               Portfolio
             </Nav.Link>
-            {/* <Nav.Link
-              className="!text-taupe !font-semibold"
-              onClick={() => router.push("/contact")}>
-              Contact
-            </Nav.Link> */}
             <NavDropdown title="Contact" id="basic-nav-dropdown">
               <NavDropdown.Item
                 className="!text-taupe !font-semibold"
-                href="mailto:genrico189@gmail.com">
+                href="mailto:genrico.dev@gmail.com">
                 Email
               </NavDropdown.Item>
               <NavDropdown.Item
